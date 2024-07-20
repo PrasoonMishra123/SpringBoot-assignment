@@ -15,14 +15,7 @@ Postman or any API testing tool
 Getting Started
 Follow these steps to set up and run the application locally:
 
-1. Clone the Repository
-Clone the project repository from GitHub:
-
-bash
-Copy code
-git clone https://github.com/yourusername/your-repository.git
-cd your-repository
-2. Configure the Application
+1. Configure the Application
 Update the src/main/resources/application.properties file with your Oracle database credentials:
 
 properties
@@ -32,20 +25,22 @@ spring.datasource.username=your_username
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.database-platform=org.hibernate.dialect.Oracle12cDialect
-3. Build the Project
+2. Build the Project
 Use Maven to build the project:
 
 bash
 Copy code
 mvn clean install
-4. Run the Application
+3. Run the Application
 Run the Spring Boot application:
 
 bash
 Copy code
 mvn spring-boot:run
-5. Test the API
+4. Test the API
 Use Postman or any other API client to test the API endpoint.
+
+5.Push the project folder in github
 
 API Endpoint:
 
