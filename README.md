@@ -49,7 +49,7 @@ Use Postman or any other API client to test the API endpoint.
 
 API Endpoint:
 
-URL: http://localhost:8080/api/updateMenu
+URL: http://localhost:9000/api/updateMenu
 Method: POST
 Query Parameter: input - A comma-separated list of key-value pairs separated by :::.
 Example Request:
